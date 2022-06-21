@@ -1,0 +1,80 @@
+body {
+    background-image: url("#");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    color: gray;
+}
+
+.fixed-header {
+    width: 100%;
+    position: static;
+    top: 0;
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+
+.fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #335;
+    bottom: 0;
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+
+nav a {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container p {
+    line-height: 200px;
+}
+
+/*sa registratiom*/
+
+form {
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.card {
+    border-radius: 3%;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+input[type=submit] {
+    border: none;
+    color: gray;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
